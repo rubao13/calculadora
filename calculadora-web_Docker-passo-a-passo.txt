@@ -1,0 +1,26 @@
+criando um site calculadora
+
+abrir o play with docker 
+
+docker run -i -t -p 80:80 --name calc oraclelinux:6.6 /bin/bash
+
+yum install -y httpd
+
+yum install -y wget 
+
+yum install -y unzip 
+
+cd /var/www/html/ 
+
+wget https://codepen.io/ckm100/share/zip/dPLyjZ/ 
+
+mv index.html lol.zip 
+
+unzip lol.zip 
+
+/etc/init.d/httpd start
+
+abrir navegador 
+http://<url-docker-play>/index.html
+
+
