@@ -1,6 +1,6 @@
-criando um site calculadora
+Criando um site calculadora:
 
-abrir o play with docker 
+1. abrir o play with docker 
 
 docker run -i -t -p 80:80 --name calc oraclelinux:6.6 /bin/bash
 
